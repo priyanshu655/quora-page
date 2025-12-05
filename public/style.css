@@ -1,0 +1,104 @@
+h1{
+    color:maroon;
+}
+
+.post{
+    background-color: blanchedalmond;
+    height:100%;
+    width:90%;
+    border-radius: 10px;
+   box-shadow:  1px 1px 3px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+
+}
+
+.user{
+    font-style: italic;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+}
+
+.container_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.newpost{
+    color: white;
+    text-decoration: none;
+}
+
+.new{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    background-color: maroon;
+    font-weight: 100px;
+    border-radius: 15px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view{
+    height:30px;
+    width:70px;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.view_btn{
+    color: white;
+    text-decoration: none;
+    font-weight: 100px;
+}
+
+.view_main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.delete{
+    height: 30px;
+    background-color: maroon;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+}

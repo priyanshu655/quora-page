@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style4.css">
+</head>
+<body>
+    <div class="edit"> 
+        <div class="edit1">
+        <h2>Edit the post</h2>
+        </div>
+    </div>
+    <div class="form1">
+   <div class="form">
+    <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+        <textarea class="content" name="content">Write content to change</textarea> <br><br><br>
+        <div>
+        <button class="btn">Submit!</button></div>
+    </form>
+   </div>
+   </div>
+</body>
+</html>

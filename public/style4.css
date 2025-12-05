@@ -1,0 +1,107 @@
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {
+    background-color: #0a0a0a; /* dark background */
+    background-image:
+        linear-gradient(#222 1px, transparent 1px),
+        linear-gradient(90deg, #222 1px, transparent 1px);
+    background-size: 40px 40px; /* size of the grid squares */
+}
+
+.edit{
+      height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.edit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    padding: 0 50px;             /* better than fixed width */
+    
+    border: 2px solid white;     /* complete border */
+    border-radius: 20px;
+
+    color: white;
+    box-sizing: border-box;      /* avoids overflow */
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 30%;
+    background-color: rgba(93, 92, 92, 0.758);
+    border-radius: 20px;
+}
+
+.content{
+    height: 10em;
+    width: 20em;
+    border-radius: 20px;
+    border: 4px solid transparent;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    background: #fff;
+    transition: 0.2s ease;
+}
+
+/* Sharp RGB on Hover */
+.content:hover{
+    animation: sharpRGB 1.8s linear infinite;
+}
+
+/* Sharp Border Animation */
+@keyframes sharpRGB {
+    0% {
+        box-shadow: 0 0 4px 0px #ff0040;   /* Sharp glow */
+        border-color: #ff0040;
+    }
+    25% {
+        box-shadow: 0 0 4px 0px #007bff;   /* Sharp glow */
+        border-color: #007bff;
+    }
+    50% {
+        box-shadow: 0 0 4px 0px #00ff6a;
+        border-color: #00ff6a;
+    }
+    75% {
+        box-shadow: 0 0 4px 0px #ffea00;
+        border-color: #ffea00;
+    }
+    100% {
+        box-shadow: 0 0 4px 0px #ff0040;
+        border-color: #ff0040;
+    }
+}
+
+
+form div{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.btn{
+    height: 3em;
+    width:5em;
+    border-radius: 10px;
+    padding: 2px;
+    border: none;
+ 
+}
+
+.btn:hover{
+animation: sharpRGB 3s ease;
+}

@@ -1,0 +1,83 @@
+
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50%;
+    width:30%;
+    background-color: maroon;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.2);
+}
+
+.user{
+   height: 40px;
+   width:250px;
+   border-radius: 10px;
+  background-color:blanchedalmond;
+   border-color: maroon;
+   border-style: none;
+}
+
+.content{
+    height:90px;
+    width:250px;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+   border-color: maroon;
+    border-style: none;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 40px;
+    width: 100px;
+    background-color:blanchedalmond;
+   border-color: maroon;
+    border-style: none;
+}
+
+.btn:hover{
+    border-radius: 30px;
+    transition: border-radius 0.3s;
+}
+
+.id{
+    margin-left: 0.3px;
+      height: 40px;
+   width:250px;
+   border-radius: 10px;
+   background-color:blanchedalmond;
+   border-color: maroon;
+   border-style: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    color:maroon;
+}

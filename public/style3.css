@@ -1,0 +1,42 @@
+.username{
+    display: flex;
+ justify-content: center;
+
+}
+
+.post{
+     background-color: blanchedalmond;
+    height:20%;
+    width:90%;
+    border-radius: 10px;
+   box-shadow:  1px 1px 3px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.container_main{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    color:maroon;
+}
+

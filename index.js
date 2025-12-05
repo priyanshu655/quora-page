@@ -15,7 +15,7 @@ let PORT=process.env.PORT||3000;
 
 
 app.listen(PORT,()=>{
-    console.log("listening on port: 8080");
+    console.log(`listening on port: ${PORT}`);
 });
 
 let posts=[
@@ -114,4 +114,4 @@ app.delete("/posts/:id",(req,res)=>{
     let {id}=req.params;
      posts=posts.filter((p)=>id!==p.id);
     res.redirect("/posts");
-})
+});

@@ -35,26 +35,31 @@ body {
     box-sizing: border-box;      /* avoids overflow */
 }
 
-.form{
+.form {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
-    width: 30%;
+    flex-wrap: wrap;
+    width: 90%;          /* instead of 30% */
+    max-width: 400px;    /* limits how big it gets on large screens */
+    padding: 20px;
     background-color: rgba(93, 92, 92, 0.758);
     border-radius: 20px;
+    margin: 0 auto;      /* centers on small screens */
 }
 
-.content{
-    height: 10em;
-    width: 20em;
-    border-radius: 20px;
-    border: 4px solid transparent;
+.content {
+    width: 100%;          /* take full width of parent */
+    max-width: 350px;     /* don’t get too big */
+    min-height: 100px;    /* keeps it readable */
+    border-radius: 10px;
+    border: 2px solid #ccc;
     padding: 10px;
     outline: none;
     font-size: 16px;
     background: #fff;
     transition: 0.2s ease;
+    box-sizing: border-box; /* ensures padding doesn’t break width */
 }
 
 /* Sharp RGB on Hover */
@@ -93,13 +98,17 @@ form div{
     align-items: center;
 }
 
-.btn{
+.btn {
+    width: 100%;          /* button takes full width on mobile */
+    max-width: 150px;     /* button max size */
     height: 3em;
-    width:5em;
     border-radius: 10px;
-    padding: 2px;
     border: none;
- 
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
 .btn:hover{
